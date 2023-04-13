@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  .main {
+    width: 50%;
+    min-height: 240px;
+    background-color: #fff5;
+    margin:  auto;
+    margin-top: 40px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+  
+  .main div {
+    width: 15vh;
+    min-height: 130px;
+    box-shadow: 0 .4rem .8rem rgba(6, 6, 6, 0.333);
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  .main div img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+  }
+
+  hr{
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  h5{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer{
+    margin-top: 30px;
+    background-color:rgb(129, 129, 129);
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+ .footer  div{
+  display: inline-block;
+  margin-left: 200px;
+  margin-top: 20px;
+  color: white;
+ }
+ footer hr{
+  color: white;
+  margin-left: 110px;
+  margin-right: 110px;
+ }
+
+ h6{
+  text-align: center;
+  margin: auto;
+  margin-top: 30 px;
+  color: white;
+  font-size: 13px;
+ }
+
+ #facebook:hover {
+  color: blue;
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+#instagram:hover {
+  color: rgb(177, 73, 108);
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+#youtube:hover {
+  color: red;
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+table td{
+  height: 50px;
+  width: 5px;
+  color: white;
+  font-size: 23px;
+  
+}
+table{
+  background-color: rgb(156, 155, 155);
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+table td:hover{
+  background-color: rgb(71, 71, 71);
+}
